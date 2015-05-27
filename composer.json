@@ -1,0 +1,22 @@
+{
+    "name": "logikio/pubnub-laravel",
+    "description": "Laravel 5 Pubnub Package",
+    "keywords": ["laravel 5", "pubnub", "laravel"],
+    "authors": [
+        {
+            "name": "Logik.IO",
+            "email": "logikgp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*",
+        "pubnub/pubnub": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logikio\\PubnubLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
