@@ -1,12 +1,14 @@
-[![Latest Stable Version](https://poser.pugx.org/logikio/pubnub-laravel/v/stable)]
-(https://packagist.org/packages/logikio/pubnub-laravel) 
-[![Total Downloads](https://poser.pugx.org/logikio/pubnub-laravel/downloads)](https://packagist.org/packages/logikio/pubnub-laravel) 
-[![Latest Unstable Version](https://poser.pugx.org/logikio/pubnub-laravel/v/unstable)](https://packagist.org/packages/logikio/pubnub-laravel) 
-[![License](https://poser.pugx.org/logikio/pubnub-laravel/license)](https://packagist.org/packages/logikio/pubnub-laravel)
+<h1>Pubnub Laravel</h1>
+<p>
+    <a href="https://packagist.org/packages/logikio/pubnub-laravel"><img alt="Latest Stable Version" src="https://poser.pugx.org/logikio/pubnub-laravel/v/stable" /></a>
+    <a href="https://packagist.org/packages/logikio/pubnub-laravel"><img alt="Total Downloads" src="https://poser.pugx.org/logikio/pubnub-laravel/downloads" /></a>
+    <a href="https://packagist.org/packages/logikio/pubnub-laravel"><img alt="Latest Unstable Version" src="https://poser.pugx.org/logikio/pubnub-laravel/v/unstable" /></a>
+    <a href="https://packagist.org/packages/logikio/pubnub-laravel"><img alt="License" src="https://poser.pugx.org/logikio/pubnub-laravel/license" /></a>
+</p>
+
+<p>A Laravel 5 API wrapper for the Pubnub service.</p>
 
 ### Pubnub Laravel
-A Laravel 5 Pubnub API wrapper
+A Laravel 5 API wrapper for the Pubnub service.
 
-[Pubnub PHP Repository](https://github.com/pubnub/php)
-
-***
+[Documentation](http://logikio.github.io/pubnub-laravel)
