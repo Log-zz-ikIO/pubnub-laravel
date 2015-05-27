@@ -20,37 +20,13 @@
 
     <section class="main-content">
       <h3>
-        <a id="pubnub-laravel" class="anchor" href="#pubnub-laravel" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pubnub Laravel</h3>
+<a id="pubnub-laravel" class="anchor" href="#pubnub-laravel" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pubnub Laravel</h3>
 
-        <p>A simple Laravel 5 Pubnub wrapper</p>
-        
-        <div class="highlight highlight-Javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>;</pre></div>
+<p>A Laravel 5 Pubnub API wrapper</p>
 
-        <hr />
-        
-        <div class="highlight highlight-php">
-          <pre class="code"><code class="php">
-        &lt;?php namespace Logik\Providers;
+<p><a href="https://github.com/pubnub/php">Pubnub PHP Repository</a></p>
 
-use Pubnub\Pubnub;
-use Illuminate\Support\ServiceProvider;
-
-class PubnubServiceProvider extends ServiceProvider {
-
-	protected $defer = true;
-
-	public function register() {
-		$this->app->singleton('pn', function($app) {
-			return new Pubnub($app['config']['services']['pubnub']['publish_key'], $app['config']['services']['pubnub']['subscribe_key'], $app['config']['services']['pubnub']['secret_key'], false);
-		});
-	}
-
-	public function provides() {
-        return ['pn'];
-    }
-
-}</code></pre>
-        </div>
+<hr>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/LogikIO/pubnub-laravel">Pubnub Laravel</a> is maintained by <a href="https://github.com/LogikIO">LogikIO</a>.</span>
@@ -60,7 +36,17 @@ class PubnubServiceProvider extends ServiceProvider {
 
     </section>
 
-  
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-63282330-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
   </body>
 </html>
 
