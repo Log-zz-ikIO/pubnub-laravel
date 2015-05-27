@@ -9,6 +9,9 @@ return [
 	'subscribe_key' => '',
 
 	// Secret Key
-	'secret_key' => ''
+	'secret_key' => '',
+
+	// SSL
+	'ssl' => true
 
 ];

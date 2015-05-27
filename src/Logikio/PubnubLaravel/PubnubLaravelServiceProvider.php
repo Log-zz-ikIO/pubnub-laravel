@@ -35,7 +35,7 @@ class PubnubLaravelServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->app->singleton('pn', function($app) {
-			return new Pubnub(config('pubnub.publish_key'), config('pubnub.subscribe_key'), config('pubnub.secret_key'));
+			return new Pubnub(config('pubnub.publish_key'), config('pubnub.subscribe_key'), config('pubnub.secret_key'), config('pubnub.ssl'));
 		});
 	}
 
