@@ -26,6 +26,31 @@
         
         <div class="highlight highlight-Javascript"><pre><span class="pl-k">var</span> foo <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">"</span>bar<span class="pl-pds">"</span></span>;</pre></div>
 
+        <hr />
+        
+        <div class="highlight highlight-php">
+          <pre><?php namespace Logik\Providers;
+
+use Pubnub\Pubnub;
+use Illuminate\Support\ServiceProvider;
+
+class PubnubServiceProvider extends ServiceProvider {
+
+	protected $defer = true;
+
+	public function register() {
+		$this->app->singleton('pn', function($app) {
+			return new Pubnub($app['config']['services']['pubnub']['publish_key'], $app['config']['services']['pubnub']['subscribe_key'], $app['config']['services']['pubnub']['secret_key'], false);
+		});
+	}
+
+	public function provides() {
+        return ['pn'];
+    }
+
+}</pre>
+        </div>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/LogikIO/pubnub-laravel">Pubnub Laravel</a> is maintained by <a href="https://github.com/LogikIO">LogikIO</a>.</span>
 
