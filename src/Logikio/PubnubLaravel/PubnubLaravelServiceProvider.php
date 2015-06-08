@@ -1,6 +1,4 @@
-<?php 
-
-namespace Logikio\PubnubLaravel;
+<?php namespace Logikio\PubnubLaravel;
 
 use Pubnub\Pubnub;
 use Illuminate\Support\ServiceProvider;
@@ -20,7 +18,7 @@ class PubnubLaravelServiceProvider extends ServiceProvider {
 	 *
 	 * @var bool
 	 */
-	
+
 	public function boot() {
 
 		$this->publishes([
