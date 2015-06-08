@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Facade;
 
 class PubnubFacade extends Facade {
 
-    protected static function getFacadeAccessor() { return 'pn'; }
+    protected static function getFacadeAccessor() { 
+    	return 'pn'; 
+    }
 
 }
