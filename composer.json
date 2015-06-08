@@ -1,8 +1,8 @@
 {
-    "license": "MIT",
     "name": "logikio/pubnub-laravel",
     "description": "Laravel 5 Pubnub Package",
-    "keywords": ["laravel 5", "pubnub", "laravel"],
+    "keywords": ["api", "pubnub", "laravel", "real-time", "push", "real time", "laravel 5"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Logik.IO",
@@ -17,11 +17,6 @@
     "autoload": {
         "psr-4": {
             "Logikio\\PubnubLaravel\\": "src/"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.0.1-dev"
         }
     },
     "minimum-stability": "dev"
