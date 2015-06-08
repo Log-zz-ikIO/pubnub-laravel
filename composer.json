@@ -3,6 +3,7 @@
     "description": "Laravel 5 Pubnub Package",
     "keywords": ["api", "pubnub", "laravel", "real-time", "push", "real time", "laravel 5"],
     "license": "MIT",
+    "homepage": "http://logikio.github.io/pubnub-laravel",
     "authors": [
         {
             "name": "Logik.IO",
