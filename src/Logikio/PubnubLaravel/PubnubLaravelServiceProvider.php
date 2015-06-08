@@ -12,6 +12,7 @@ class PubnubLaravelServiceProvider extends ServiceProvider {
 	 *
 	 * @var bool
 	 */
+
 	protected $defer = true;
 
 	/**
@@ -19,6 +20,7 @@ class PubnubLaravelServiceProvider extends ServiceProvider {
 	 *
 	 * @var bool
 	 */
+	
 	public function boot() {
 
 		$this->publishes([
