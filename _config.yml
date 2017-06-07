@@ -1,0 +1,8 @@
+title: Pubnub Laravel
+description: Laravel 5 Pubnub Package
+google_analytics: UA-63282330-2
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
